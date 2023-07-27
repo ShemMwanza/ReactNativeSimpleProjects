@@ -1,0 +1,31 @@
+{
+  "name": "rncourse-project",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@callstack/react-theme-provider": "^3.0.8",
+    "@expo-google-fonts/inter": "^0.2.3",
+    "@expo/webpack-config": "^18.0.1",
+    "expo": "~48.0.15",
+    "expo-app-loading": "^2.1.1",
+    "expo-font": "~11.1.1",
+    "expo-linear-gradient": "~12.1.2",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.7",
+    "react-native-paper": "^5.7.2",
+    "react-native-web": "~0.18.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "metro": "^0.76.4"
+  },
+  "private": true
+}
